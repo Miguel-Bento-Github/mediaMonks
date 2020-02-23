@@ -1,0 +1,59 @@
+.puzzle__piece--1 {
+  background-position: 0px 0px;
+}
+
+.puzzle__piece--2 {
+  background-position: -100px 0px;
+}
+
+.puzzle__piece--3 {
+  background-position: -200px 0px;
+}
+
+.puzzle__piece--4 {
+  background-position: -300px 0px;
+}
+
+.puzzle__piece--5 {
+  background-position: 0px -100px;
+}
+
+.puzzle__piece--6 {
+  background-position: -100px -100px;
+}
+
+.puzzle__piece--7 {
+  background-position: -200px -100px;
+}
+
+.puzzle__piece--8 {
+  background-position: -300px -100px;
+}
+
+.puzzle__piece--9 {
+  background-position: 0px -200px;
+}
+
+.puzzle__piece--10 {
+  background-position: -100px -200px;
+}
+
+.puzzle__piece--11 {
+  background-position: -200px -200px;
+}
+
+.puzzle__piece--12 {
+  background-position: -300px -200px;
+}
+
+.puzzle__piece--13 {
+  background-position: -0px -300px;
+}
+
+.puzzle__piece--14 {
+  background-position: -100px -300px;
+}
+
+.puzzle__piece--15 {
+  background-position: -200px -300px;
+}

@@ -1,0 +1,11 @@
+.game-explanation {
+  display: flex;
+  flex-flow: wrap column;
+  margin: 0 auto;
+}
+
+.game-explanation__picture {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+}

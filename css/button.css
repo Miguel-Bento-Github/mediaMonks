@@ -1,0 +1,22 @@
+.puzzle__start {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Verdana;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 25px;
+  border: 0;
+  outline: thin;
+  padding: 15px;
+  border: solid 1px transparent;
+  border-radius: 36px;
+  background: #baa898;
+  box-shadow: 9px -9px 18px #a49486, -9px 9px 18px #d0bcaa;
+}
+.puzzle__start:hover {
+  border: solid 1px #d4c0ae;
+}
+
+.puzzle__start:active {
+  box-shadow: inset 9px -9px 18px #a49486, inset -9px 9px 18px #d0bcaa;
+}

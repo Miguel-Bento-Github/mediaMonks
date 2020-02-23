@@ -1,0 +1,25 @@
+.app-title {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.puzzle__title {
+  text-align: center;
+  color: #222;
+  cursor: default;
+}
+
+.game-explanation__title,
+.puzzle__title {
+  margin: 15px auto;
+}
+
+.game-explanation__description {
+  font-family: Avenir, Helvetica, sans-serif;
+  line-height: 1.4;
+  margin-top: 25px;
+  padding: 0 15px;
+}
+.puzzle__win {
+  font-size: 32px;
+}

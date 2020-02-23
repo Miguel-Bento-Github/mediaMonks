@@ -1,0 +1,37 @@
+.puzzle__piece {
+  background: url("../monks.jpg");
+  background-size: 400px;
+  height: 96px;
+  width: 96px;
+  grid-area: var(--area);
+  outline: thin;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px -3px 6px #a49486, -3px 3px 6px #d0bcaa;
+}
+@media screen and (max-width: 960px) {
+  .puzzle__piece {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+.puzzle__piece:hover:enabled {
+  border: solid 2px #eee0cb;
+}
+.puzzle__piece:active:enabled {
+  border: solid 5px #eee0cb;
+}
+
+.puzzle__piece--16 {
+  background: transparent;
+}
+
+.puzzle__piece:disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+#puzzle__piece--empty {
+  color: transparent;
+}

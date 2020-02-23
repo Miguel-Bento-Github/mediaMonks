@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0  maximum-scale=1"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/gameExplanation.css" />
+    <link rel="stylesheet" href="./css/game.css" />
+    <link rel="stylesheet" href="./css/text.css" />
+    <link rel="stylesheet" href="./css/puzzlePiece.css" />
+    <link rel="stylesheet" href="./css/puzzlePiecePlacement.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <script src="./js/insertTiles.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+    <title>MediaMonks Puzzle</title>
+  </head>
+  <body>
+    <h1 class="app-title">Welcome to the mediaMonks assessment</h1>
+    <main class="app">
+      <section class="game-explanation">
+        <h2 class="game-explanation__title ">Game explanation</h2>
+        <img
+          class="game-explanation__picture"
+          src="./monks.jpg"
+          alt="mediaMonks"
+        />
+        <p class="game-explanation__description">
+          The objective of the puzzle is to place the tiles in order by making
+          sliding moves that use the empty space.
+          <br />
+          Please refer to
+          <a href="https://en.wikipedia.org/wiki/15_puzzle">this</a>
+          wiki page for more info about the game.
+        </p>
+      </section>
+      <section class="game">
+        <h2 class="puzzle__title" id="app-title">Click start to begin</h2>
+        <div class="puzzle" id="puzzle"></div>
+        <button class="puzzle__start" id="start">start/shuffle</button>
+        <div class="puzzle__description">
+          <span class="puzzle__description-title">Moves:</span>
+          <span class="puzzle__description-amount" id="moves">0</span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
